@@ -1,0 +1,106 @@
+h1 {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgb(57, 57, 57);
+  color: rgb(255, 255, 255);
+}
+
+th,
+td {
+  font-size: 20px;
+}
+
+body,
+main {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.div-addStudents {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+  gap: 10vw;
+
+}
+
+.div-addStudents button {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+form {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.2);
+  color: #1a1a1a;
+  
+  
+  border-radius: 25px;
+ 
+
+  padding: 3rem 2rem;
+}
+input {
+  font-size: 20px;
+  padding: 5px;
+}
+label {
+  font-size: 25px;
+  font-weight: bold;
+}
+button {
+  background-color: rgb(246, 94, 0);
+  border: none;
+}
+
+label {
+  font-size: 20px;
+}
+.container{
+    min-height: 100vh !important
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+h4 a{
+    color: rgb(5, 145, 215);
+}
+h4 a:hover {
+    text-decoration:underline ;
+}
+form section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+form{
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+h6{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+.errorMessage{
+  color: red;
+  background-color: rgba(255, 0, 0, 0.307);
+}
+.successfulMessage{
+  color: rgb(0, 255, 72);
+  background-color: rgba(0, 255, 0, 0.107);
+}

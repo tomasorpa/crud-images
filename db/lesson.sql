@@ -1,0 +1,5 @@
+CREATE TABLE login (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    user VARCHAR(20) NOT NULL,
+    password VARCHAR(20) NOT NULL
+);
